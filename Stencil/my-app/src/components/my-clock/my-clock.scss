@@ -1,0 +1,16 @@
+#clock-wrapper {
+  position: absolute;
+  padding: 5px;
+  margin: 5px;
+  border-color: grey;
+  border-width: 6px;
+  border-style: double;
+  border-radius: 6px;
+  top: 3px;
+  left: 80%;
+  color: #ddd;
+  background: blue;
+}
+.my-clock {
+  font-size: 18px;
+}

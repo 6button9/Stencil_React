@@ -1,0 +1,14 @@
+my-check-list {
+	#check-list-wrapper{
+	  display: inline;
+	  width: 100%;
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: #b3b3b3;
+	  color: rgba(0, 0, 0, 1);
+	  text-shadow: -1px -1px rgba(222, 222, 222, 0.2);
+  }
+  .check-list-item label {
+    display: inline;
+  }
+}

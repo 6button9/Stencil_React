@@ -1,0 +1,53 @@
+
+my-calculator {
+  position: absolute;
+  top: 100px;
+  margin: 4px;
+  width: 250px;
+  background: blue;
+  //height: 320px;
+}
+div .calculator-title {
+  //position: relative;
+  //display: block;
+  margin: 4px;
+  color: purple;
+  background: #999;
+  font-size: 32px;
+}
+div .calculator-text {
+  //position: relative;
+  //display: block;
+  margin: 8px;
+  color: purple;
+  background: #999;
+  font-size: 32px;
+}
+.calculator-button-wrapper {
+  position: absolute;
+  top: 175px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 4px;
+  color: green;
+  background: orange;
+  width: 240px;
+  height: 280px;
+}
+div .calculator-button {
+  //position: relative;
+  //display: block;
+  margin: 3px;
+  color: #212;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 3px;
+}
+div .calculator-button:hover {
+  font-weight: bold;
+  background: green;
+}

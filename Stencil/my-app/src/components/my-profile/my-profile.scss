@@ -1,0 +1,71 @@
+my-profile {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(60px, auto);
+  border-color: grey;
+  border-width: 6px;
+  border-style: double;
+  border-radius: 6px;
+  top: 70px;
+  left: 20%;
+  color: #222;
+  background: yellow;
+  opacity: 0.98;
+  z-index: 1000;
+
+}
+.img-one {
+  border-radius: 20px;
+  width: 90%;
+  margin: 4%;
+  grid-column: 1 / 3 ;
+  grid-row: 1;
+  background-image: url('/assets/img/pos1.png');
+}
+.img-two {
+  width: 90%;
+  grid-column: 2;
+  grid-row: 2 / 4;
+  margin: 9%;
+  border-radius: 80px;
+  background: red;
+  //background-size: contain;
+}
+.img-three {
+  margin: 5%;
+  width: 90%;
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+  background-image: url('/assets/img/PongDemo1.png');
+  //background-size: contain;
+}
+.img-four{
+  display: block;
+  margin-left: 7px;
+  left: 90%;
+  width: 30px;
+}
+.one-four{
+  grid-column: 1;
+  grid-row: 4;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  width: 60%;
+  height: 100%;
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}

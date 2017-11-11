@@ -1,0 +1,18 @@
+
+my-portal-el {
+    .myPortal {
+    display: block;
+    height: 45%;
+    width: 45%;
+    border-style:solid;
+    border-width: 1px;
+    }
+    h1 {
+      color: red;
+    }
+    button {
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+    }
+}

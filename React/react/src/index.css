@@ -1,0 +1,34 @@
+#header-wrapper {
+  display: inline-block;
+  width: 100%;
+  background: grey;
+  color: red;
+  height: auto;
+
+}
+.header {
+  position: relative;
+  display: inline-block;
+  margin: 4px;
+  color: green;
+  background: white;
+}
+.header:hover {
+  background: lightblue;
+}
+#clock-wrapper {
+  position: absolute;
+  padding: 5px;
+  margin: 5px;
+  border-color: grey;
+  border-width: 6px;
+  border-style: double;
+  border-radius: 6px;
+  top: 3px;
+  left: 710px;
+  color: #ddd;
+  background: blue;
+}
+.my-clock {
+  font-size: 18px;
+}

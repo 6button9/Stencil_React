@@ -1,0 +1,15 @@
+
+my-parent {
+    background: url(/assets/img/icon.png) #CADF3E 8px 50% / 50px 50px no-repeat;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    padding-left: 25px;
+
+    button {
+        display: inline;
+        background: teal;
+        list-style-type: none;
+        padding-right: 20px;
+    }
+}

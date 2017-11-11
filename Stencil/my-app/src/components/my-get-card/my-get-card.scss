@@ -1,0 +1,14 @@
+my-get-card #get-card-wrapper{
+  font-size: 18px;
+  position: absolute;
+  width: 300px;
+  top: 10%;
+  left: calc(50% - 120px);
+  button {
+    border-style: solid;
+    margin: 10px;
+    height: 40px;
+    color: #ece;
+    background: #124;
+  }
+}
